@@ -20,3 +20,4 @@ You will need to install this library to use the program
 $ pip install exifread
 Look up for instructions about using pip command
 Or go to https://github.com/ianare/exif-py to see if there is anything helpful
+123
