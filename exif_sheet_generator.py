@@ -56,6 +56,8 @@ for path, dir_list, file_list in g:
                 if tag == element:
                     value = tags[tag]
                     value = str(value)
+                    if tag == 'EXIF ExposureTime':
+                        value = ' ' + value
                     if tag == 'EXIF BrightnessValue':
                         value = '=' + value
                         # Add a '=' so excel will calculate the value instead of an error
